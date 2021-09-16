@@ -1,0 +1,35 @@
+.about {
+  padding: 30px 0;
+
+  &Heading {
+    text-align: center;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+    &Title {
+      margin: 10px 0;
+
+      &Position {
+        margin: 5px 0;
+      }
+    }
+
+    &Avatar {
+      display: flex;
+      width: 150px;
+      border-radius: 50%;
+    }
+  }
+
+  &Main {
+    &Sec {
+      margin: 20px 0;
+    }
+    margin: 20px 0;
+  }
+}
+
+.rounded {
+  border-radius: 50%;
+}

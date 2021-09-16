@@ -1,0 +1,17 @@
+.label {
+  text-transform: lowercase;
+  padding: 4px;
+  border-radius: 5px;
+  background: #aaa;
+  color: #fff;
+  font-size: 15px;
+
+  &.primary {
+    background: #0d6efd;
+  }
+
+  &.secondary {
+    background: #6c757d;
+  }
+
+}

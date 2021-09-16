@@ -1,0 +1,10 @@
+root = true
+
+[*]
+end_of_line = lf
+
+[*.{js,scss}]
+tab_width = 2
+indent_size = 2
+charset = utf-8
+indent_style = space
