@@ -10,7 +10,7 @@ export default function Home() {
         <meta name='og:title' content='Vadym (qerdcv) Tishchenko - Fullstack Developer'/>
         <meta name='og:description' content='I&apos;m Vadym Tishchenko a Fullstack Web Developer.'/>
         <meta name='og:image' content='/images/avatar.jpg'/>
-        <link rel='icon' href='/favicon.ico' />
+        <link rel='shortcut icon' href='/favicon.ico' />
       </Head>
       <About />
     </div>
