@@ -10,6 +10,7 @@ export default function Home() {
         <meta name='og:title' content='Vadym (qerdcv) Tishchenko - Fullstack Developer'/>
         <meta name='og:description' content='I&apos;m Vadym Tishchenko a Fullstack Web Developer.'/>
         <meta name='og:image' content='/images/avatar.jpg'/>
+        <meta name='theme-color' content='#118811'/>
         <link rel='shortcut icon' href='/favicon.ico' />
       </Head>
       <About />
