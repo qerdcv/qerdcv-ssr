@@ -15,9 +15,14 @@ export default function Way(props) {
         id: '1',
         positions: [
           {
+            id: '8',
+            title: 'Golang Developer',
+            date: '01.11.2021 - now'
+          },
+          {
             id: '4',
             title: 'Middle Python Developer',
-            date: '01.04.2021 - now'
+            date: '01.04.2021 - 01.11.2021'
           }
         ]
       },
