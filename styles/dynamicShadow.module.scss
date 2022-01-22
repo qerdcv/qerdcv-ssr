@@ -1,18 +1,18 @@
 .dynamicShadow {
    border-radius: 50%;
    display: flex;
-   box-shadow: 8px 5px 30px -6px rgba(255, 0, 0, 0.4);
+   box-shadow: 18px 15px 40px -16px rgba(255, 0, 0, 0.7);
    animation: dynamic-shadow 3s ease infinite;
  }
 
 @keyframes dynamic-shadow {
   34% {
-    box-shadow: 8px 5px 30px -6px rgba(0, 255, 0, 0.4);
+    box-shadow: 18px 15px 40px -16px rgba(0, 255, 0, 0.7);
   }
   64% {
-    box-shadow: 8px 5px 30px -6px rgba(0, 0, 255, 0.4);
+    box-shadow: 18px 15px 40px -16px rgba(0, 0, 255, 0.7);
   }
   100% {
-    box-shadow: 8px 5px 30px -6px rgba(255, 0, 0, 0.4);
+    box-shadow: 18px 15px 40px -16px rgba(255, 0, 0, 0.7);
   }
 }
