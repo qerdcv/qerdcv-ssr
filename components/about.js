@@ -1,7 +1,7 @@
 import Image from 'next/image';
 
 import style from 'styles/about.module.scss';
-import AvatarImage from 'public/images/avatar.jpg';
+import AvatarImage from 'public/images/avatar.png';
 import Listing from 'components/listing';
 import DynamicShadow from 'components/dynamicShadow';
 import Anchor from 'components/anchor';
