@@ -1,5 +1,11 @@
 .anchor {
-  color: #606060;
+  :global(.dark) & {
+    color: #b0b0b0;
+  }
+
+  :global(.light) & {
+    color: #606060;
+  }
 
   &:active {
     color: #eee;

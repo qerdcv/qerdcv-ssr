@@ -18,8 +18,8 @@ export default function About() {
           </div>
         </DynamicShadow>
         <div className={style.aboutHeadingTitle}>
-          <h1>Vadym Tishchenko</h1>
-          <h2 className={style.aboutHeadingTitlePosition}>Fullstack Python Developer</h2>
+          <h1>Vadym <span>(qerdcv)</span> Tishchenko</h1>
+          <h2 className={style.aboutHeadingTitlePosition}>Golang Developer</h2>
         </div>
       </div>
       <div className={style.aboutMain}>
@@ -31,13 +31,13 @@ export default function About() {
         <section className={style.aboutMainSec}>
           <Anchor id='hard-skills' title='Hard Skills'>
             <Listing>
-              <Listing.Item>Python <Label type='primary'>primary language</Label></Listing.Item>
+              <Listing.Item>Golang <Label type='primary'>primary language</Label></Listing.Item>
+              <Listing.Item>Python <Label type='secondary'>secondary&nbsp;language</Label></Listing.Item>
               <Listing.Item>JavaScript/Typescript <Label type='secondary'>secondary&nbsp;language</Label></Listing.Item>
               <Listing.Item>Git</Listing.Item>
               <Listing.Item>Docker</Listing.Item>
               <Listing.Item>Bash/shell and familiarity with Linux</Listing.Item>
               <Listing.Item>HTML/CSS</Listing.Item>
-              <Listing.Item>Golang</Listing.Item>
               <Listing.Item>Rust</Listing.Item>
               <Listing.Item>C++</Listing.Item>
             </Listing>
