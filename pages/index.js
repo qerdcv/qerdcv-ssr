@@ -1,19 +1,51 @@
-import Head from 'next/head'
+import { useEffect, useState } from 'react';
+import { ThemeContext } from 'context/theme';
+import { Theme } from 'components/theme';
+import Footer from 'components/footer';
 import About from 'components/about';
 
+
+const themeMap = {
+  dark: 'light',
+  light: 'dark'
+}
+
 export default function Home() {
+  const [theme, setTheme] = useState(null);
+
+  useEffect(() => {
+    if (localStorage) {
+      setTheme(localStorage.getItem("theme") ?? "dark");
+    }
+  }, [setTheme]);
+
+  const switchTheme = () => {
+    setTheme((theme) => {
+      const newTheme = themeMap[theme] ?? "dark";
+      if (localStorage) {
+        localStorage.setItem("theme", newTheme);
+      }
+      return themeMap[theme];
+    });
+  };
+
+  if (!theme) {
+    return null;
+  }
   return (
-    <div>
-      <Head>
-        <title>Vadym (qerdcv) Tishchenko - Fullstack Developer</title>
-        <meta name='description' content='Vadym (qerdcv) Tishchenko - Fullstack Developer' />
-        <meta name='og:title' content='Vadym (qerdcv) Tishchenko - Fullstack Developer' />
-        <meta name='og:description' content='I&apos;m Vadym Tishchenko a Fullstack Web Developer.' />
-        <meta name='og:image' content='/images/avatar.jpg' />
-        <meta name='theme-color' content='#55aa55' />
-        <link rel='shortcut icon' href='/favicon.ico' />
-      </Head>
+  <ThemeContext.Provider
+    value={{
+      theme,
+      switchTheme,
+    }}
+  >
+    <div className={`theme ${theme}`}>
+
+    <div className="container">
       <About />
+      <Footer />
     </div>
-  )
+    <Theme />
+    </div>
+  </ThemeContext.Provider>);
 }
