@@ -1,9 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu+Mono:wght@400;700&display=swap');
 @import 'styles/variables/color.scss';
 
 html,
 body {
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  font-family: 'Ubuntu Mono', monospace;
 }
 
 a {
@@ -39,4 +39,9 @@ a {
   }
 
   transition: all .4s ease-in-out;
+}
+
+.nick {
+  display: inline;
+  text-decoration: underline;
 }

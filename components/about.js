@@ -18,8 +18,8 @@ export default function About() {
           </div>
         </DynamicShadow>
         <div className={style.aboutHeadingTitle}>
-          <h1>Vadym <span>(qerdcv)</span> Tishchenko</h1>
-          <h2 className={style.aboutHeadingTitlePosition}>Golang Developer</h2>
+          <h1>Vadym <h4 className='nick'>(qerdcv)</h4> Tishchenko</h1>
+          <h2 className={style.aboutHeadingTitlePosition}>Fullstack Developer</h2>
         </div>
       </div>
       <div className={style.aboutMain}>
