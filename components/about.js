@@ -36,6 +36,9 @@ export default function About() {
               <Listing.Item>JavaScript/Typescript <Label type='secondary'>secondary&nbsp;language</Label></Listing.Item>
               <Listing.Item>Git</Listing.Item>
               <Listing.Item>Docker</Listing.Item>
+              <Listing.Item>docker-compose</Listing.Item>
+              <Listing.Item>k8s</Listing.Item>
+              <Listing.Item>helm</Listing.Item>
               <Listing.Item>Bash/shell and familiarity with Linux</Listing.Item>
               <Listing.Item>HTML/CSS</Listing.Item>
               <Listing.Item>Rust</Listing.Item>
